@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black">
+    <header class="flex w-full flex-row justify-between items-center px-4 py-3">
+      <a href="/src/home-feed/index.html">
+        <img src="../public/images/cross.svg" alt="avatar" />
+      </a>
+      <button
+        class="px-6 py-3 w-21 flex justify-center items-center rounded-1 bg-tblue font-inter text-base not-italic font-bold leading-normal text-neutral-50 hover:bg-tblue1">
+        Post
+      </button>
+    </header>
+
+    <div class="py-2 px-4 flex gap-3">
+      <img src="../public/images/user-avatar.png" alt="" />
+      <input
+        type="text"
+        id="input"
+        placeholder="What's happening?!"
+        class="bg-transparent outline-none text-neutral-50 placeholder:text-neutral-600" />
+    </div>
+
+    <footer
+      class="flex flex-row fixed bottom-0 py-3 px-4 items-center gap-x-10 border-t border-solid border-neutral-800 bg-neutral-1000 w-full">
+      <h1 class="text-white">0/280</h1>
+    </footer>
+  </body>
+</html>

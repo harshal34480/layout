@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Tilt+Prism&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-1000">
+    <div class="px-fifteen pb-5 min-h-screen">
+      <section>
+        <div class="flex gap-5 py-3 px-0 items-center">
+          <a href="/src/login/index.html">
+            <img src="/src/public/images/cross.svg" alt="cross icon" />
+          </a>
+          <p
+            class="text-neutral-50 font-inter font-bold text-15 leading-normal not-italic">
+            Step 1 of 4
+          </p>
+        </div>
+      </section>
+
+      <h1 class="font-inter text-2xl text-neutral-50">Create your account</h1>
+      <div class="flex flex-col gap-8 pb-[291px]">
+        <!-- Name -->
+        <div class="group">
+          <fieldset
+            class="py-4 px-3 border border-neutral-500 group-hover:border-tblue rounded lg:w-full lg:h-full md:w-full md:h-full flex-auto">
+            <legend
+              class="text-sm px-2 font-inter not-italic font-medium leading-normal text-neutral-500 group-hover:text-tblue">
+              Name
+            </legend>
+            <div class="flex justify-between items-center relative">
+              <input
+                type="text"
+                class="outline-none text-white placeholder: font-inter text-xl not-italic font-normal leading-normal bg-transparent"
+                placeholder="label" />
+            </div>
+          </fieldset>
+        </div>
+
+        <!-- Email -->
+        <div class="group">
+          <fieldset
+            class="py-4 px-3 w-full border border-neutral-500 rounded lg:w-full lg:h-full md:h-full md:w-full group-hover:border-tblue">
+            <legend
+              class="text-sm font-inter not-italic font-medium leading-normal text-neutral-500 px-1 group-hover:text-tblue">
+              Email
+            </legend>
+            <input
+              type="text"
+              class="outline-none text-white placeholder: font-inter text-xl not-italic font-normal leading-normal bg-transparent"
+              placeholder="label" />
+          </fieldset>
+        </div>
+
+        <!-- Some information -->
+        <section class="flex flex-col gap-2 text-left">
+          <h1
+            class="font-inter text-15 not-italic font-bold leading-normal text-neutral-50">
+            Date of birth
+          </h1>
+          <p
+            class="text-1xl font-inter not-italic leading-normal font-normal text-neutral-50 lg:w-full lg:h-full md:w-full md:h-full">
+            This will not be shown publicly. Confirm your own age, even if this
+            account is for a business, a pet, or something else.
+          </p>
+        </section>
+
+        <!-- Date -->
+        <section class="grid grid-cols-[2fr_1fr_1fr] gap-3">
+          <div class="group">
+            <fieldset
+              class="py-4 px-3 border border-neutral-500 rounded-4 group-hover:border-tblue">
+              <legend
+                class="text-sm font-inter not-italic font-medium leading-normal text-neutral-500 px-3 flex justify-center group-hover:text-tblue">
+                Month
+              </legend>
+              <label for="Month"></label>
+              <div class="flex justify-between">
+                <select name="Month" id="Month" class="bg-transparent">
+                  <option value="1">Janauary</option>
+                  <option value="2">Februrary</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                  <option value="5">May</option>
+                  <option value="6">June</option>
+                  <option value="7">July</option>
+                  <option value="8">August</option>
+                  <option value="9">Sepetember</option>
+                  <option value="10">Octomber</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+                <img
+                  src="/src/public/images/chevron-down.svg"
+                  alt="downward arrow" />
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="group">
+            <fieldset
+              class="py-4 px-3 border border-neutral-500 rounded-4 group-hover:border-tblue">
+              <legend
+                class="text-sm font-inter not-italic font-medium leading-normal text-neutral-500 px-3 flex justify-center group-hover:text-tblue">
+                Date
+              </legend>
+              <label for="Date"></label>
+              <div class="flex justify-between">
+                <select name="Date" id="Date" class="bg-transparent">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">13</option>
+                  <option value="12">14</option>
+                  <option value="12">15</option>
+                  <option value="12">16</option>
+                  <option value="12">17</option>
+                  <option value="12">18</option>
+                  <option value="12">19</option>
+                  <option value="12">20</option>
+                  <option value="12">21</option>
+                  <option value="12">22</option>
+                  <option value="12">23</option>
+                  <option value="12">24</option>
+                  <option value="12">25</option>
+                  <option value="12">26</option>
+                  <option value="12">27</option>
+                  <option value="12">28</option>
+                  <option value="12">29</option>
+                  <option value="12">30</option>
+                  <option value="12">31</option>
+                </select>
+                <img
+                  src="/src/public/images/chevron-down.svg"
+                  alt="downward arrow" />
+              </div>
+            </fieldset>
+          </div>
+
+          <!-- <div class="group"> -->
+          <div class="group">
+            <fieldset
+              class="py-4 px-3 border border-neutral-500 rounded-4 group-hover:border-tblue">
+              <legend
+                class="text-sm font-inter not-italic font-medium leading-normal text-neutral-500 px-3 flex justify-center group-hover:text-tblue">
+                Year
+              </legend>
+              <label for="Year"></label>
+              <div class="flex justify-between">
+                <select name="Year" id="Year" class="bg-transparent">
+                  <option value="1">2001</option>
+                  <option value="2">2002</option>
+                  <option value="3">2003</option>
+                  <option value="4">2004</option>
+                  <option value="5">2005</option>
+                  <option value="6">2006</option>
+                  <option value="7">2007</option>
+                  <option value="8">2008</option>
+                  <option value="9">2009</option>
+                  <option value="10">2010</option>
+                  <option value="11">2011</option>
+                  <option value="12">2012</option>
+                </select>
+                <img
+                  src="/src/public/images/chevron-down.svg"
+                  alt="downward arrow" />
+              </div>
+            </fieldset>
+          </div>
+        </section>
+      </div>
+      <!-- Button -->
+      <div class="mt-auto">
+        <a href="/src/login/create-account-step-2.html">
+          <button
+            class="py-2 px-6 w-full flex flex-grow justify-center rounded-full bg-neutral-500 items-center font-inter font-bold not-italic leading-normal text-base text-neutral-1000">
+            Create account
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
